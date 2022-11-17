@@ -1,11 +1,7 @@
 public abstract class Funcionario {
 
     private String nome;
-    private Double salario;
-
-    public Funcionario(String nome) {
-        this.nome = nome;
-        }
+    private Double bonificacao;
 
     public String getNome() {
         return nome;
@@ -15,19 +11,11 @@ public abstract class Funcionario {
         this.nome = nome;
     }
 
-    public abstract Double getBonificacao(); //{
-        //return bonificacao;
-    //}
-
-//    public void setBonificacao(Double bonificacao) {
-//        this.bonificacao = bonificacao;
-//    }
-
-    public Double getSalario() {
-        return salario;
+    public Double getBonificacao() {
+        return bonificacao;
     }
 
-    public void setSalario(Double salario) {
-        this.salario = salario;
+    public void setBonificacao(Double bonificacao) {
+        this.bonificacao = bonificacao;
     }
 }

@@ -1,4 +1,4 @@
-public class Gerente extends Funcionario{
+public class SecretariaAdministrativa extends Secretaria{
 
     @Override
     public Double getBonificacao() {

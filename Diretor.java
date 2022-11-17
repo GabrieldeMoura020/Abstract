@@ -1,11 +1,7 @@
-public class Diretor extends Gerente {
-
-    public Diretor(String nome) {
-        super(nome);
-    }
+public class Diretor extends Gerente{
 
     @Override
     public Double getBonificacao() {
-        return getSalario() * 1.20;
+        return super.getBonificacao();
     }
 }
